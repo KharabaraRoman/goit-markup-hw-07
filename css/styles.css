@@ -1157,14 +1157,15 @@ p {
             padding-top: 32px;
     
         }
+       
     
         .team-header {
             color: var(--primary-text-color);
             font-size: 20px;
-            line-height: 1.2;
+            line-height: calc(24 / 20);
             letter-spacing: 0.02em;
             font-family: var(--primary-font);
-            font-weight: 700;
+            font-weight: 500;
             text-align: center;
             margin-bottom: 8px;
     
@@ -1173,17 +1174,23 @@ p {
         .team-paragraph {
             color: var(--secondary-text-color);
             font-size: 16px;
-            line-height: 1.5;
+            line-height: calc(24 / 16);
             letter-spacing: 0.02em;
             font-family: var(--primary-font);
             text-align: center;
-    
+            margin-bottom: 8px;
         }
-    
-        .team-list {
-            
+        .efects-team-item {
+            padding-right: 24px;
         }
-    
+        .efects-team-item:last-child {
+            padding-right: 0;
+        }
+        
+        .team-item img {
+            margin-left: auto;
+            margin-right: auto;
+        }
         .team-item {
             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
             background-color: var(--buttons-color-hover);
@@ -1204,6 +1211,8 @@ p {
         .team-icons {
             display: flex;
             padding: 12px 16px 36px 16px;
+            justify-content: center;
+            align-items: center;
         }
     
         .team-icon-item {
