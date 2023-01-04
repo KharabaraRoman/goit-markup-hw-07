@@ -1250,7 +1250,7 @@ p {
 
 /* -------------------------Screen Tablet----------------------------- */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .container {
         width: 768px;
         margin-right: auto;
@@ -1603,7 +1603,6 @@ p {
         display: flex;
         flex-wrap: wrap;
         margin-left: 108px;
-
     }
 
     .team-item {
@@ -1978,6 +1977,7 @@ p {
     }
 
     /* section What are we doing */
+    
 
     .what-team-title {
         color: var(--primary-text-color);
@@ -1988,7 +1988,9 @@ p {
         font-weight: 700;
         margin-bottom: 72px;
     }
-
+    .section-what {
+        display: block;
+        }
     .what-list {
         display: flex;
     }
