@@ -1195,18 +1195,11 @@ p {
             margin-bottom: 16px;
         }
         .box-subscribe {
-            display: flex;
-            flex-direction: column;
+            /* display: flex;
+            flex-direction: column; */
             
         }
-        .form-footer {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
         
-    
         .input-email:focus {
             border: 1px solid #9747FF;
             outline: transparent;
@@ -1217,7 +1210,7 @@ p {
             background-color: inherit;
             padding-left: 16px;
             height: 40px;
-            width: 396px;
+            width: 100%;
             margin-bottom: 16px;
             color: rgba(255, 255, 255, 0.6);
             line-height: calc(24/12);
@@ -1239,10 +1232,7 @@ p {
             color: rgba(255, 255, 255, 0.6);
         }
     
-        .box-subscribe {
-            margin-left: auto;
-            margin-right: auto;
-        }
+        
     
         .subscribe-icon {
             width: 24px;
@@ -1263,7 +1253,6 @@ p {
             display: inline-flex;
             background-color: var(--buton-color);
             color: #ffffff;
-            margin-left: 24px;
             padding-top: 8px;
             padding-left: 24px;
             padding-right: 24px;
@@ -1271,16 +1260,14 @@ p {
             border-radius: 4px;
             border-color: transparent;
             font-size: 16px;
-            justify-content: center;
-            align-items: center;
             font-family: var(--primary-font);
             font-weight: 500;
             letter-spacing: 0.04em;
             line-height: calc(24 / 16);
             cursor: pointer;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
         }
 
