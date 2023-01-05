@@ -1570,7 +1570,7 @@ p {
 
     .team {
         background-color: var(--complementary-color2);
-        padding-bottom: 200px;
+        
     }
 
     .what-team-title {
@@ -1699,6 +1699,7 @@ p {
         margin-left: 108px;
         margin-right: 108px;
         padding-bottom: 96px;
+        padding-top: 200px;
     }
     
 
