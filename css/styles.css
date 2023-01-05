@@ -1099,7 +1099,6 @@ p {
         .footer-container {
            display: flex;
            flex-direction: column;
-           justify-content: center;
            align-items: center;
         }
        
@@ -1198,8 +1197,7 @@ p {
         .box-subscribe {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            
         }
         .form-footer {
             display: flex;
@@ -1263,8 +1261,6 @@ p {
     
         .button-subscribe {
             display: inline-flex;
-            justify-content: center;
-            align-items: center;
             background-color: var(--buton-color);
             color: #ffffff;
             margin-left: 24px;
