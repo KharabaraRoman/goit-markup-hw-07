@@ -1111,7 +1111,7 @@ p {
         .footer-contant a {
             display: flex;
             justify-content: center;
-            align-self: start;
+            align-items: center;
          }
     
         .footer-paragraph {
