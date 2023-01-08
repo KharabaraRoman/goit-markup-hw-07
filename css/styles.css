@@ -106,7 +106,7 @@ p {
         pointer-events: none;
         transition: opacity 500ms linear, visibility 500ms linear;
     }
-    .mobile-menu.js-open-menu {
+    .mobile-menu.is-open {
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
