@@ -18,7 +18,10 @@ body {
     background-color: var(--buttons-color-hover);
     color: var(--primary-text-color);
 }
-
+ul {
+    padding: 0;
+    margin: 0;
+}
 /* .container {
     width: 1158px;
     padding: 0 15px;
@@ -107,20 +110,21 @@ p {
         transition: opacity 500ms linear, visibility 500ms linear;
     }
     .mobile-menu.is-open {
+        display: block;
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
     }
     .mobile-menu-container {
         position: relative;
-        padding-left: 25px;
-        padding-right: 60px;
+        padding-left: 40px;
+        padding-right: 40px;
         padding-top: 80px;
         padding-bottom: 40px;
     }
     .close-button-burger {
         position: absolute;
-        top: 6px;
+        top: 40px;
         right: 15px;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 50%;
@@ -141,7 +145,7 @@ p {
         margin-bottom: 0px;
     }
     .nav-burger {
-        padding-bottom: 284px;
+        margin-bottom: 284px;
     }
     .nav-link-burger {
         color: var(--primary-text-color);
@@ -175,7 +179,7 @@ p {
         list-style: none;
     }
     .auntefication-burger {
-        padding-bottom: 58px;
+        margin-bottom: 58px;
     }
     .burger-button {
         width: 32px;
