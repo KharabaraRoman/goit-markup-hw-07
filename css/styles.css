@@ -1470,8 +1470,12 @@ p {
     }
 
     .authefication-list {
-        padding-top: 24px;
+        display: flex;
+        flex-direction: column;
         margin-left: auto;
+    }
+    .button-header-open {
+        display: none;
     }
 
     .authefication-item:last-child {
@@ -2615,6 +2619,7 @@ p {
         width: 1158px;
         margin-left: auto;
         margin-right: auto;
+        padding: 0 15px;
     }
 
     /* HEADER */
@@ -2623,6 +2628,9 @@ p {
     }
     .burger-button {
         display: none;
+    }
+    .button-header-open {
+         display: none;
     }
 
     .header {
