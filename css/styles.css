@@ -40,6 +40,7 @@ ul {
 img {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 
 .list {
@@ -118,6 +119,9 @@ p {
     }
     .mobile-menu-container {
         position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 80px;
@@ -127,14 +131,18 @@ p {
         position: absolute;
         top: 40px;
         right: 15px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 50%;
         line-height: 0;
-        
+        border: 1px solid rgba(0, 0, 0, 0.1);
     }
     .close-burger {
-        width: 24px;
-        height: 24px;
+        width: 12px;
+        height: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
     }
     .button-header-open {
         background-color: transparent;
