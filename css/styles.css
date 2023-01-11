@@ -175,10 +175,14 @@ p {
         letter-spacing: 0.02em;
         font-weight: 700;
         margin-bottom: 40px;
+        color: var(--primary-text-color);
         text-decoration: none;
         list-style: none;
 
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .nav-link-burger:focus {
+        color: #404BBF;
     }
 
     .link-mobile-burger {
