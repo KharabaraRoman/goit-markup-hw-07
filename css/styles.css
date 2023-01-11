@@ -84,6 +84,7 @@ p {
 /* -------------------ADAPTIVE--------------------------------- */
 
 .container {
+    
     padding: 0px 15px;
     margin: 0 auto;
 
@@ -135,7 +136,7 @@ p {
     .close-button-burger {
         position: absolute;
         top: 40px;
-        right: 15px;
+        right: 40px;
         border-radius: 50%;
         line-height: 0;
         border: 1px solid rgba(0, 0, 0, 0.1);
@@ -3205,7 +3206,7 @@ p {
         border: 1px solid var(--buton-color);
     }
 
-    /* footer */
+    
     /* footer */
     .footer {
         padding: 100px 0px;
