@@ -109,7 +109,7 @@ p {
         left: 0;
         z-index: 10;
         overflow: auto;
-        height: 100%;
+        
 
         opacity: 0;
         visibility: hidden;
@@ -142,15 +142,14 @@ p {
         border-radius: 50%;
         line-height: 0;
         border: 1px solid rgba(0, 0, 0, 0.1);
-    }
-
-    .close-burger {
-        width: 12px;
-        height: 12px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
 
+    .close-burger {
+        width: 8px;
+        height: 8px;
 
     }
 
@@ -164,9 +163,8 @@ p {
     .nav-link-burger:last-child {
         margin-bottom: 0px;
     }
-
-    .nav-burger {
-        margin-bottom: 284px;
+    .link-burger {
+        color: var(--primary-text-color);
     }
 
     .nav-link-burger {
@@ -191,9 +189,8 @@ p {
     .link-mobile-burger {
         font-family: var(--primary-font);
         font-weight: 600;
-        font-size: 36px;
+        font-size: 20px;
         line-height: calc(40 / 36);
-        color: var(--buton-color);
         list-style: none;
         margin-bottom: 40px;
         letter-spacing: 0.02em;
@@ -210,6 +207,9 @@ p {
 
     .auntefication-burger {
         margin-bottom: 58px;
+    }
+    .auntefication-burger-link {
+        color: #9747FF;
     }
 
     .burger-button {
@@ -242,7 +242,9 @@ p {
         display: flex;
         justify-content: space-between;
     }
-
+    .position-burger-contacts {
+        margin-top: auto;
+    }
 
     .header {
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -552,7 +554,7 @@ p {
         width: 40px;
         height: 40px;
         cursor: pointer;
-        display: flex;
+        display: inline-block;
         justify-content: center;
         align-items: center;
 
@@ -1144,6 +1146,7 @@ p {
         overflow: auto;
         height: 100%;
         width: 90%;
+        
 
         transform: translate(-50%, -50%) scale(1);
         opacity: 1;
