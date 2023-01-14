@@ -164,6 +164,10 @@ p {
     .nav-link-burger:last-child {
         margin-bottom: 0px;
     }
+    .link-burger:hover,
+    .link-burger:focus {
+        color: #404BBF;
+    }
     .link-burger {
         color: var(--primary-text-color);
     }
@@ -190,11 +194,12 @@ p {
     .link-mobile-burger {
         font-family: var(--primary-font);
         font-weight: 600;
-        font-size: 20px;
+        font-size: 36px;
         line-height: calc(40 / 36);
         list-style: none;
         margin-bottom: 40px;
         letter-spacing: 0.02em;
+        
     }
 
     .link-email-burger {
@@ -210,7 +215,11 @@ p {
         margin-bottom: 58px;
     }
     .auntefication-burger-link {
-        color: #9747FF;
+        color:  var(--secondary-text-color);
+    }
+    .auntefication-burger-link:hover,
+    .auntefication-burger-link:focus {
+        color: var(--buton-color);
     }
 
     .burger-button {
@@ -523,11 +532,16 @@ p {
 
     .efects-team-item {
         padding-right: 24px;
-
     }
-
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
     .team-item {
         margin-bottom: 32px;
+        width: 264px;
     }
 
     .team-item:last-child {
@@ -1701,6 +1715,7 @@ p {
     .features-list {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .features-item:nth-last-child(-n + 2) {
