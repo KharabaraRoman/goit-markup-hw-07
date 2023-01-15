@@ -304,6 +304,10 @@ p {
 
     }
 
+    .auntefication-burger-mobile {
+        color: #4D5AE5;
+    }
+
     .authefication-list {
         display: none;
     }
@@ -1587,6 +1591,10 @@ p {
 
     .auntefication-burger-link {
         color: var(--secondary-text-color);
+    }
+
+    .auntefication-burger-mobile {
+        color: #4D5AE5;
     }
 
     .auntefication-burger-link:hover,
