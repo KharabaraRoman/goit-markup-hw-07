@@ -1169,7 +1169,7 @@ p {
             top: 50%;
             left: 50%;
             overflow: auto;
-            height: 90%;
+            max-height: 80vh;
             width: 90%;
     
     
@@ -1443,10 +1443,23 @@ p {
             border-radius: 4px;
         }
 }
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 413px) and (max-width: 767px) {
     .container {
+        width: 428px;
         margin-right: auto;
         margin-left: auto;
+        padding: 0 15px;
     }
 
     /* HEADER */
@@ -2789,13 +2802,22 @@ p {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------------Screen Tablet----------------------------- */
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .container {
         width: 768px;
-        margin-right: auto;
-        margin-left: auto;
     }
 
 
@@ -3064,7 +3086,7 @@ p {
     /* section features */
 
     .features {
-        padding-bottom: 192px;
+        padding-bottom: 96px;
         padding-top: 96px;
     }
 
@@ -3129,6 +3151,8 @@ p {
 
     .team {
         background-color: var(--complementary-color2);
+        padding-top: 96px;
+        padding-bottom: 104px;
 
     }
 
@@ -3255,32 +3279,20 @@ p {
 
     .customers-section {
         background-color: var(--buttons-color-hover);
-        margin-left: 108px;
-        margin-right: 108px;
         padding-bottom: 96px;
-        padding-top: 200px;
+        padding-top: 96px;
     }
-
-
     .customers-list {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        row-gap: 72px;
+        column-gap: 24px;
     }
 
     .customers-item {
-        margin-right: 24px;
-        margin-bottom: 72px;
-        width: 168px;
+        flex-basis: calc((100% - 2 * 24px) / 3);
         height: 88px;
-    }
-
-    .customers-item:nth-child(3n) {
-        margin-right: 0px;
-    }
-
-    .customers-item:nth-last-child(-n+3) {
-        margin-bottom: 0px;
     }
 
     .svg-customers {
@@ -3780,7 +3792,7 @@ p {
         top: 50%;
         left: 50%;
         overflow: auto;
-        height: 90%;
+        max-height: 80vh;
 
 
         transform: translate(-50%, -50%) scale(1);
@@ -3823,7 +3835,10 @@ p {
 
     /* ----------------FORM BACKDROP----------------- */
     .modal-form {
-        padding: 72px 24px 24px 24px;
+      padding-left: 23px;
+      padding-right: 25px;
+      padding-top: 72px;
+      padding-bottom: 24px;
     }
 
     .uni-form input:focus {
